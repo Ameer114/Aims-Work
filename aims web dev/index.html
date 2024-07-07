@@ -56,7 +56,7 @@
         }
         
         .sec2 h1:hover{
-            color: rgb(255, 0, 0);
+            color: rgb(255, 255, 255);
             text-shadow: 0px 0px 50px black;
             cursor: pointer;
             font-size: 35px;
@@ -73,18 +73,28 @@
             align-items: center;
             justify-content: center;
             margin: 10px;
+            background-color: black;
             
         }
         .sec3 .card{
-            height: 260px;
+            height: 350px;
             width: 260px;
-            background-color: rgb(226, 85, 85);
-            margin: 0px 10px;
+            background-color: rgb(255, 252, 249);
+            margin: 0px 30px;
             border-radius: 5px;
+            padding: 10px;
+            border: 1px solid;
+        }
+        .sec3 .card img{
+            width: 100%;
+            height: 40%;
+
+            border-radius: 5px ;
         }
         .sec3 .card:hover{
-            background-color: red;  
-            box-shadow:0px 0px 40px black;
+            background-color: rgb(235, 92, 92);  
+            
+            box-shadow:0px 0px 20px rgba(255, 255, 255, 0.648);
             
         }
         .top{
@@ -121,6 +131,15 @@
                 display: none;
             }
         }
+        .inner p{
+            padding: 10px;
+            text-align: center;
+        }
+        .inner h3{
+            color: black;
+        }
+        
+        
 
     </style>
 </head>
@@ -128,7 +147,7 @@
     <div class="main">
     <section>
         <nav>
-            <h3><span>You</span>Tube</h3>
+            <h3><span>Nat</span>ure</h3>
             <ul>
                 <li><a href="#">Home</a></li>
                 <li><a href="#">Explore</a></li>
@@ -141,13 +160,29 @@
     <div class="sec2">
         <h1>Best Place To Find and Explore That All You Need</h1>
     </div></div>
-    <h3>Services</h3>
+    <h3>The Nature</h3>
     <div class="sec3">
-        <div class="card"></div>
-        <div class="card"></div>
-        <div class="card"></div>
-        <div class="card"></div>
-        <div class="card"></div>
+        <div class="card">
+            <img src="mountains.jpg" alt="">
+            <div class="inner"> <h3>The Mountains</h3> 
+            <p> feel the power of wind with the greenary Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laborum adipisci consectetur quod corrupti ipsa nobis quis eligendi perspiciatis numquam assumenda!</p></div>
+        </div>
+        <div class="card">
+            <img src="falls.jpg" alt="">
+            <div class="inner"> <h3>Great Waterfalls</h3> 
+                <p> feel the power of wind with the greenary Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laborum adipisci consectetur quod corrupti ipsa nobis quis eligendi perspiciatis numquam assumenda!</p></div>
+        </div>
+        <div class="card">
+            <img src="lake.jpg" alt="">
+            <div class="inner"> <h3>Evening Lakes</h3> 
+                <p> feel the power of wind with the greenary Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laborum adipisci consectetur quod corrupti ipsa nobis quis eligendi perspiciatis numquam assumenda!</p></div>
+        </div>
+        <div class="card">
+            <img src="green.jpg" alt="">
+            <div class="inner"> <h3>Green Nature</h3> 
+                <p> feel the power of wind with the greenary Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laborum adipisci consectetur quod corrupti ipsa nobis quis eligendi perspiciatis numquam assumenda!</p></div>
+        </div>
+        
     </div>
     <div class="top"> <h1>Welcome Guys!</h1></div>
 </body>
